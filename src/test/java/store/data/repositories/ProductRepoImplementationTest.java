@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import store.data.models.Category;
 import store.data.models.Product;
+import store.exceptions.InvalidProduct;
 
 import java.math.BigDecimal;
 
@@ -16,7 +17,6 @@ class ProductRepoImplementationTest {
 
     @BeforeEach
     void setUp() {
-        productRepository = new ProductRepoImplementation();
         product = new Product();
         product.setCategory(Category.CAR);
         product.setQuantity(200);
@@ -45,7 +45,9 @@ class ProductRepoImplementationTest {
         Product savedProduct = productRepository.save(product);
         Product savedProduct1 = productRepository.save(product);
         productRepository.delete(savedProduct);
-        assertNotNull(savedProduct1);
+        productRepository.delete(savedProduct1);
+        assertThrows(InvalidProduct.class, () -> productRepository.find("Honda"));
+        assertThrows(InvalidProduct.class, () -> productRepository.find("Ankara"));
     }
 
     @Test
