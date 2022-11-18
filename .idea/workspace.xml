@@ -4,7 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +44,6 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/collaboration_project",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -58,7 +56,7 @@
       <recent name="store.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepoImplementationTest.save">
+  <component name="RunManager" selected="JUnit.ProductRepoImplementationTest.delete">
     <configuration name="ProductRepoImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
@@ -70,6 +68,22 @@
       <option name="PACKAGE_NAME" value="store.data.repositories" />
       <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepoImplementationTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,8 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductRepoImplementationTest.save" />
+        <item itemvalue="JUnit.ProductRepoImplementationTest.delete" />
         <item itemvalue="JUnit.ProductRepoImplementationTest" />
+        <item itemvalue="JUnit.ProductRepoImplementationTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -105,15 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
-      <workItem from="1668800957219" duration="1540000" />
-      <workItem from="1668806221372" duration="644000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1668806846753</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1668806846753</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -133,7 +139,5 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
