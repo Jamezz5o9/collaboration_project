@@ -42,7 +42,10 @@ class ProductRepoImplementationTest {
 
     @Test
     void delete() {
-
+        Product savedProduct = productRepository.save(product);
+        Product savedProduct1 = productRepository.save(product);
+        productRepository.delete(savedProduct);
+        assertNotNull(savedProduct1);
     }
 
     @Test
