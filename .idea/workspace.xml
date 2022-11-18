@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="checking saved product" />
+=======
+>>>>>>> refs/remotes/origin/product_repo
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -133,6 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
+<<<<<<< HEAD
       <workItem from="1668800957219" duration="7369000" />
     </task>
     <task id="LOCAL-00001" summary="checking saved product">
@@ -141,6 +150,8 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1668807195701</updated>
+=======
+>>>>>>> refs/remotes/origin/product_repo
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -160,7 +171,5 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="checking saved product" />
-    <option name="LAST_COMMIT_MESSAGE" value="checking saved product" />
   </component>
 </project>
