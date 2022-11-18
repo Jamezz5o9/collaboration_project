@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +47,11 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,7 +63,7 @@
       <recent name="store.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepoImplementationTest.delete">
+  <component name="RunManager" selected="JUnit.ProductRepoImplementationTest.save">
     <configuration name="ProductRepoImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
@@ -106,9 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepoImplementationTest.save" />
         <item itemvalue="JUnit.ProductRepoImplementationTest.delete" />
         <item itemvalue="JUnit.ProductRepoImplementationTest" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +145,8 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
