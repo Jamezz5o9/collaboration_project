@@ -1,25 +1,34 @@
-package store.data.models;
+package store.data.repositories;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ProductTest {
+class ProductRepoImplementationTest {
 
     @BeforeEach
     void setUp() {
+
     }
 
     @Test
-    void setCategory() {
+    void save() {
     }
 
     @Test
-    void setPrice() {
+    void delete() {
     }
 
     @Test
-    void setQuantity() {
+    void find() {
+    }
+
+    @Test
+    void findAll() {
+    }
+
+    @Test
+    void findByCategory() {
     }
 }
