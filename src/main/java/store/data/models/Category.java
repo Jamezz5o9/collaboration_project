@@ -1,5 +1,5 @@
 package store.data.models;
 
 public enum Category {
-    BEVERAGES, APPLIANCES, FASHION
+    BEVERAGES, APPLIANCES, FASHION, CAR
 }

@@ -2,9 +2,12 @@ package store.data.repositories;
 
 import store.data.models.Category;
 import store.data.models.Product;
+import store.exceptions.InvalidProduct;
+import store.exceptions.StoreException;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class ProductRepoImplementation implements ProductRepository{
     private final List<Product> product = new ArrayList<>();
@@ -41,16 +44,24 @@ public class ProductRepoImplementation implements ProductRepository{
 
     @Override
     public Product find(String name) {
-        return null;
+        for (Product value : product) {
+            if (Objects.equals(value.getName(), name)) return value;
+        }
+        throw new InvalidProduct(String.format("%s", "product with " + name  + " is not found"));
+
     }
 
     @Override
     public List<Product> findAll() {
-        return null;
+        return product;
     }
 
     @Override
     public List<Product> findByCategory(Category category) {
-        return null;
+        List<Product> freshProduct = new ArrayList<>();
+        for(Product prod: product){
+            if(prod.getCategory() == category)freshProduct.add(prod);
+        }
+        return freshProduct;
     }
 }
