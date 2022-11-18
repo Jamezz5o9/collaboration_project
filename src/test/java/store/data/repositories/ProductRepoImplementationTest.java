@@ -52,6 +52,16 @@ class ProductRepoImplementationTest {
 
     @Test
     void find() {
+        Product savedProduct = productRepository.save(product);
+        Product savedProduct1 = productRepository.save(product1);
+        Product freshProduct = productRepository.find(savedProduct.getName());
+        Product freshProduct1 = productRepository.find(savedProduct1.getName());
+        assertNotNull(freshProduct);
+        assertNotNull(freshProduct1);
+        assertEquals(savedProduct.getName(), freshProduct.getName());
+        assertEquals(savedProduct1.getName(), freshProduct1.getName());
+
+
     }
 
     @Test
