@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="checking saved product">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/store/data/repositories/ProductRepoImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/ProductRepoImplementationTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="checking saved product" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
-      <workItem from="1668800957219" duration="7003000" />
+      <workItem from="1668800957219" duration="7369000" />
     </task>
     <task id="LOCAL-00001" summary="checking saved product">
       <created>1668807195701</created>
