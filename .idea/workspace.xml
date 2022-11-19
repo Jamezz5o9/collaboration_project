@@ -4,6 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/exceptions/CustomerNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/CustomerRepoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="package-info" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -44,10 +54,17 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="store.data.models" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -56,8 +73,8 @@
       <recent name="store.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepoImplementationTest.delete">
-    <configuration name="ProductRepoImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerRepoImplTest.deleteById">
+    <configuration name="CustomerRepoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +83,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoImplementationTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepoImplTest.deleteByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +98,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="deleteByEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoImplementationTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepoImplTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +114,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="save" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="deleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepoImplTest.findByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="findByEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepoImplTest.getNumberOfCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="getNumberOfCustomers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,9 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductRepoImplementationTest.delete" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.save" />
+        <item itemvalue="JUnit.CustomerRepoImplTest.deleteById" />
+        <item itemvalue="JUnit.CustomerRepoImplTest.deleteByEmail" />
+        <item itemvalue="JUnit.CustomerRepoImplTest" />
+        <item itemvalue="JUnit.CustomerRepoImplTest.getNumberOfCustomers" />
+        <item itemvalue="JUnit.CustomerRepoImplTest.findByEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +172,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1668809831997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809831997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,5 +197,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
