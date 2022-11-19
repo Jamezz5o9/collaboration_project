@@ -7,7 +7,7 @@ import store.data.repositories.CustomerRepoImpl;
 import store.utils.validators.UserDetailsValidator;
 
 public class CustomerServiceImpl implements CustomerService{
-    private CustomerRepo customerRepo = new CustomerRepoImpl();
+    private final CustomerRepo customerRepo = new CustomerRepoImpl();
     @Override
     public CustomerRegistrationResponse register(CustomerRegistrationRequest customerRegistrationRequest) {
         boolean isValidEmail = UserDetailsValidator.isValidEmail(customerRegistrationRequest.getEmail());
