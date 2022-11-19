@@ -4,6 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="07577045-2f51-41ba-9a14-bdbf164807a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/CustomerRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/CustomerRegistrationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/ProductOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/ProductOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/services/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/exceptions/UserDetailsValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/utils/validators/UserDetailsValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/store/data/services/CustomerServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/store/utils/validators/UserDetailsValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/store/data/repositories/ProductRepoImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/ProductRepoImplementationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,88 +54,105 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="store.data.dto" />
       <recent name="store.data.models" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="store.utils.validators" />
+      <recent name="store.data.services" />
       <recent name="store.data.repositories" />
       <recent name="store.data.models" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.CustomerServiceImplTest.register">
+    <configuration name="CustomerServiceImplTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="PATTERN" value="store.data.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="PACKAGE_NAME" value="store.data.services" />
+      <option name="MAIN_CLASS_NAME" value="store.data.services.CustomerServiceImplTest" />
+      <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDetailsValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.utils.validators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.utils.validators" />
+      <option name="MAIN_CLASS_NAME" value="store.utils.validators.UserDetailsValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerRepoImplTest.deleteByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDetailsValidatorTest.exceptionIsThrownForAPasswordThatIsNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="PATTERN" value="store.utils.validators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
-      <option name="METHOD_NAME" value="deleteByEmail" />
+      <option name="PACKAGE_NAME" value="store.utils.validators" />
+      <option name="MAIN_CLASS_NAME" value="store.utils.validators.UserDetailsValidatorTest" />
+      <option name="METHOD_NAME" value="exceptionIsThrownForAPasswordThatIsNotValid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerRepoImplTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDetailsValidatorTest.exceptionIsThrownForAnEmailThatIsNotValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="PATTERN" value="store.utils.validators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
-      <option name="METHOD_NAME" value="deleteById" />
+      <option name="PACKAGE_NAME" value="store.utils.validators" />
+      <option name="MAIN_CLASS_NAME" value="store.utils.validators.UserDetailsValidatorTest" />
+      <option name="METHOD_NAME" value="exceptionIsThrownForAnEmailThatIsNotValid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerRepoImplTest.findByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDetailsValidatorTest.isValidPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="PATTERN" value="store.utils.validators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
-      <option name="METHOD_NAME" value="findByEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="PACKAGE_NAME" value="store.utils.validators" />
+      <option name="MAIN_CLASS_NAME" value="store.utils.validators.UserDetailsValidatorTest" />
+      <option name="METHOD_NAME" value="isValidPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,6 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerServiceImplTest.register" />
+        <item itemvalue="JUnit.UserDetailsValidatorTest" />
+        <item itemvalue="JUnit.UserDetailsValidatorTest.exceptionIsThrownForAPasswordThatIsNotValid" />
+        <item itemvalue="JUnit.UserDetailsValidatorTest.isValidPassword" />
+        <item itemvalue="JUnit.UserDetailsValidatorTest.exceptionIsThrownForAnEmailThatIsNotValid" />
       </list>
     </recent_temporary>
   </component>
