@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/VendorRepoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/VendorRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/VendorRegistrationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/services/VendorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/services/VendorServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/models/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/models/Vendor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +22,9 @@
       <list>
         <option value="Enum" />
         <option value="package-info" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,7 +47,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -156,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
-      <workItem from="1668888131776" duration="2568000" />
+      <workItem from="1668888131776" duration="7056000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
