@@ -2,8 +2,9 @@ package store.data.services;
 
 import store.data.dto.AddProductRequest;
 import store.data.dto.AddProductResponse;
+import store.data.models.Product;
 
 public interface ProductService {
     AddProductResponse orderProduct(AddProductRequest request);
-    String getProductById(int id);
+    Product getProductByName(String name);
 }

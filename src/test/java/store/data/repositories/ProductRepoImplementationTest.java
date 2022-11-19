@@ -35,9 +35,6 @@ class ProductRepoImplementationTest {
         product2.setCategory(Category.CAR);
         product2.setQuantity(500);
         product2.setName("Benz");
-        product2.setName("Kia");
-        product2.setName("Opel");
-        product.setName("Toyota");
         product2.setPrice(BigDecimal.valueOf(50_000));
 
     }
