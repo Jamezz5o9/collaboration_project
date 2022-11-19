@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/VendorRepoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/models/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/models/Vendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +21,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,6 +45,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -141,11 +151,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="" />
+      <changelist id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="" />
       <created>1668069607990</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
+      <workItem from="1668888131776" duration="2568000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

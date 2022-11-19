@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class CustomerRepoImpl implements CustomerRepo{
-    private List<Customer> customers = new ArrayList<>();
+    private final List<Customer> customers = new ArrayList<>();
     @Override
     public Customer save(Customer customer) {
         int id = getNumberOfCustomers() + 1;
