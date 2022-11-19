@@ -35,9 +35,6 @@ class ProductRepoImplementationTest {
         product2.setCategory(Category.CAR);
         product2.setQuantity(500);
         product2.setName("Benz");
-        product2.setName("Kia");
-        product2.setName("Opel");
-        product.setName("Toyota");
         product2.setPrice(BigDecimal.valueOf(50_000));
 
     }
@@ -58,7 +55,7 @@ class ProductRepoImplementationTest {
         Product savedProduct1 = productRepository.save(product);
         productRepository.delete(savedProduct);
         productRepository.delete(savedProduct1);
-        Throws(In        assertvalidProduct.class, () -> productRepository.find("Honda"));
+        assertThrows(InvalidProduct.class, () -> productRepository.find("Honda"));
         assertThrows(InvalidProduct.class, () -> productRepository.find("Ankara"));
     }
 
