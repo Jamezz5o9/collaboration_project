@@ -22,11 +22,10 @@ public class ProductServiceImpl implements ProductService {
         Product productSaved = productRepository.save(product);
 
         AddProductResponse response = new AddProductResponse();
-        response.setProductId(productSaved.getId());
+        response.setProductName(productSaved.getName());
         response.setMessage("product successfully created");
         response.setStatusCode(200);
         return  response;
-
     }
 
     @Override
