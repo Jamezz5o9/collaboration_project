@@ -58,7 +58,7 @@ class ProductRepoImplementationTest {
         Product savedProduct1 = productRepository.save(product);
         productRepository.delete(savedProduct);
         productRepository.delete(savedProduct1);
-        Throws(In        assertvalidProduct.class, () -> productRepository.find("Honda"));
+        assertThrows(InvalidProduct.class, () -> productRepository.find("Honda"));
         assertThrows(InvalidProduct.class, () -> productRepository.find("Ankara"));
     }
 
