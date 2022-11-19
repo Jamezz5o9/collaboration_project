@@ -4,10 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/store/data/services/ProductServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/AddProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/AddProductResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,64 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="store.utils.validators" />
+      <recent name="store.data.services" />
       <recent name="store.data.repositories" />
       <recent name="store.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductServiceImplTest.orderProduct">
-    <configuration name="ProductRepoImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepoImplementationTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductRepoImplementationTest.findByCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="findByCategory" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductServiceImplTest.getProductByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -107,25 +65,38 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="store.data.services" />
-      <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
-      <option name="METHOD_NAME" value="getProductByName" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.utils.validators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.utils.validators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceImplTest.orderProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.services" />
-      <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
-      <option name="METHOD_NAME" value="orderProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +104,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductServiceImplTest.orderProduct" />
-        <item itemvalue="JUnit.ProductServiceImplTest.getProductByName" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.findByCategory" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.findAll" />
       </list>
     </recent_temporary>
   </component>
