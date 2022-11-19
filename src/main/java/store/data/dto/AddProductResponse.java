@@ -6,5 +6,5 @@ import lombok.Data;
 public class AddProductResponse {
     private String message;
     private int statusCode;
-    private int productId;
+    private String productName;
 }
