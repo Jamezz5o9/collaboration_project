@@ -4,9 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/store/data/repositories/ProductRepoImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/ProductRepoImplementationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +14,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="package-info" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -42,6 +39,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="store.data.models" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -50,8 +50,6 @@
       <recent name="store.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepoImplementationTest.findByCategory">
-    <configuration name="ProductRepoImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -60,13 +58,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoImplementationTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepoImplTest.deleteByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -75,14 +73,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="deleteByEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoImplementationTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepoImplTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -91,14 +89,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="find" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="deleteById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoImplementationTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepoImplTest.findByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -107,14 +105,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="findByEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoImplementationTest.findByCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +120,6 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="findByCategory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +127,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductRepoImplementationTest.findByCategory" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.findAll" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.find" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +139,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1668809831997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809831997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
