@@ -12,7 +12,6 @@ import java.util.TreeSet;
 @Getter
 @Builder
 public class Vendor extends User{
-    private int id;
     private String storeName;
     private Set<Address> vendorAddress = new TreeSet<>();
     private Address address;

@@ -35,6 +35,14 @@ public class VendorRepoImpl implements VendorRepo{
     }
 
     @Override
+    public Vendor findByEmail(String email) {
+     for(Vendor vendor: vendorList){
+         if(Objects.equals(vendor.getEmail(), email)) return vendor;
+     }
+     throw new VendorNotFound("Vendor Not found");
+    }
+
+    @Override
     public List<Vendor> findAll() {
         return vendorList;
     }

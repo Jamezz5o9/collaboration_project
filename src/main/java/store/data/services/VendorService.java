@@ -1,9 +1,6 @@
 package store.data.services;
 
-import store.data.dto.LoginRequest;
-import store.data.dto.LoginResponse;
-import store.data.dto.VendorRegistrationRequest;
-import store.data.dto.VendorRegistrationResponse;
+import store.data.dto.*;
 
 public interface VendorService {
     VendorRegistrationResponse register(VendorRegistrationRequest vendorRequest);

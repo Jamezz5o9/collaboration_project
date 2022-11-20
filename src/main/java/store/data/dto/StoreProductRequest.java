@@ -1,5 +1,10 @@
 package store.data.dto;
 
-public class StoreProductRequest {
+import lombok.Data;
 
+@Data
+public class StoreProductRequest {
+        private String name;
+        private String category;
+        private String productId;
 }
