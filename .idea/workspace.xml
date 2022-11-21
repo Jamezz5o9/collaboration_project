@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/exceptions/InvalidLoginDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/VendorRegistrationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/VendorRegistrationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/VendorRegistrationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/VendorRegistrationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/models/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/models/Vendor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/VendorRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/data/services/VendorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/services/VendorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/data/services/VendorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/services/VendorServiceImpl.java" afterDir="false" />
     </list>
@@ -50,12 +44,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -163,6 +157,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
       <workItem from="1668888131776" duration="11524000" />
+      <workItem from="1668941745299" duration="1656000" />
+      <workItem from="1669033531027" duration="316000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

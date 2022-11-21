@@ -1,6 +1,7 @@
 package store.data.services;
 
 import store.data.dto.*;
+import store.data.models.Product;
 import store.data.models.Vendor;
 import store.data.repositories.VendorRepo;
 import store.data.repositories.VendorRepoImpl;
@@ -8,8 +9,9 @@ import store.exceptions.InvalidLoginDetails;
 
 import java.util.Objects;
 
-public class VendorServiceImpl implements VendorService{
+public class VendorServiceImpl implements VendorService {
     private final VendorRepo vendorRepository = new VendorRepoImpl();
+
     @Override
     public VendorRegistrationResponse register(VendorRegistrationRequest vendorRequest) {
         Vendor vendor = new Vendor();
@@ -28,19 +30,26 @@ public class VendorServiceImpl implements VendorService{
 
     @Override
     public LoginResponse login(LoginRequest loginRequest) {
-        Vendor vendor= vendorRepository.findByEmail(loginRequest.getEmail());
+        Vendor vendor = vendorRepository.findByEmail(loginRequest.getEmail());
         LoginResponse response = new LoginResponse();
 
-        if(Objects.equals(vendor.getPassword(), loginRequest.getPassword())){
+        if (Objects.equals(vendor.getPassword(), loginRequest.getPassword())) {
             response.setMessage("Login successful");
             return response;
         }
-            response.setMessage("Authentication Failed");
-            return response;
+        response.setMessage("Authentication Failed");
+        return response;
     }
 
     @Override
-    public StoreProductResponse storage(StoreProductRequest storeProductRequest) {
+    public void delete(Product product) {
+
+    }
+
+    @Override
+    public Product update(Product product) {
         return null;
     }
+
 }
+
