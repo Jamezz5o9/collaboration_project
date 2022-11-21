@@ -4,7 +4,10 @@ import store.data.dto.*;
 import store.data.models.Customer;
 import store.data.repositories.CustomerRepo;
 import store.data.repositories.CustomerRepoImpl;
+import store.exceptions.CustomerNotFound;
 import store.utils.validators.UserDetailsValidator;
+
+import java.util.Objects;
 
 public class CustomerServiceImpl implements CustomerService{
     private CustomerRepo customerRepo = new CustomerRepoImpl();
@@ -41,7 +44,13 @@ public class CustomerServiceImpl implements CustomerService{
 
     @Override
     public LoginResponse login(LoginRequest loginRequest) {
-        return null;
+        Customer foundCustomer = customerRepo.findByEmail(loginRequest.getEmail());
+        if (Objects.equals(foundCustomer.getPassword(), loginRequest.getPassword())){
+            LoginResponse loginResponse = new LoginResponse();
+            loginResponse.setMessage("login successful");
+            return loginResponse;
+        }
+        else throw new CustomerNotFound("Invalid login details provided");
     }
 
     @Override
