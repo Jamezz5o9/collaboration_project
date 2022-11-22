@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/StoreProductResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/services/VendorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/services/VendorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/services/VendorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/services/VendorServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +154,11 @@
       <updated>1668069607990</updated>
       <workItem from="1668888131776" duration="11524000" />
       <workItem from="1668941745299" duration="1656000" />
-      <workItem from="1669033531027" duration="316000" />
+      <workItem from="1669033531027" duration="1281000" />
+      <workItem from="1669062454921" duration="599000" />
+      <workItem from="1669087694807" duration="605000" />
+      <workItem from="1669126088430" duration="635000" />
+      <workItem from="1669152663538" duration="662000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
