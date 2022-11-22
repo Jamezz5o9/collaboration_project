@@ -2,6 +2,7 @@ package store.data.services;
 
 import store.data.dto.*;
 import store.data.models.Customer;
+import store.data.models.Product;
 import store.data.repositories.CustomerRepo;
 import store.data.repositories.CustomerRepoImpl;
 import store.exceptions.CustomerNotFound;
@@ -11,6 +12,7 @@ import java.util.Objects;
 
 public class CustomerServiceImpl implements CustomerService{
     private CustomerRepo customerRepo = new CustomerRepoImpl();
+    private ProductService productService = new ProductServiceImpl();
     @Override
     public CustomerRegistrationResponse register(CustomerRegistrationRequest customerRegistrationRequest) {
         boolean isValidEmail = UserDetailsValidator.isValidEmail(customerRegistrationRequest.getEmail());
@@ -55,6 +57,24 @@ public class CustomerServiceImpl implements CustomerService{
 
     @Override
     public ProductOrderResponse orderProduct(ProductOrderRequest productOrderRequest) {
-        return null;
+        Customer foundCustomer = customerRepo.findById(productOrderRequest.getCustomerId());
+        ProductOrderResponse productOrderResponse = new ProductOrderResponse();
+        if (foundCustomer != null){
+
+            Product product = productService.getProductByName(productOrderRequest.getProductName());
+
+            if (product.getQuantity() < productOrderRequest.getQuantity())productOrderResponse.setMessage("Insufficient product");
+            else {
+                int newProductQuantity = product.getQuantity() - productOrderRequest.getQuantity();
+                Product orderedProduct = new Product();
+                orderedProduct.setQuantity(productOrderRequest.getQuantity());
+                orderedProduct.setName(productOrderRequest.getProductName());
+                orderedProduct.setCategory(productOrderRequest.getCategory());
+                foundCustomer.getOrders().add(orderedProduct);
+                productOrderResponse.setMessage("Order successful");
+            }
+        }
+        return productOrderResponse;
+
     }
 }

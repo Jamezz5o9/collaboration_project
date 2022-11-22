@@ -5,6 +5,7 @@ import store.data.dto.AddProductResponse;
 import store.data.models.Product;
 
 public interface ProductService {
-    AddProductResponse orderProduct(AddProductRequest request);
+    AddProductResponse addProduct(AddProductRequest request);
     Product getProductByName(String name);
+    Product updateProductInDb(Product product);
 }

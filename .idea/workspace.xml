@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07577045-2f51-41ba-9a14-bdbf164807a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2022_11_13_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2022_11_13_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/AddProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/AddProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/dto/ProductOrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/dto/ProductOrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/repositories/ProductRepoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/ProductRepoImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/data/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/services/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/data/services/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/data/services/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/store/data/repositories/CustomerRepoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/CustomerRepoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/store/data/services/CustomerServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/store/data/services/CustomerServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/store/data/services/ProductServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/store/data/services/ProductServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,64 +74,34 @@
       <recent name="store.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerServiceImplTest.login">
-    <configuration name="CustomerRepoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerServiceImplTest.orderProduct">
+    <configuration name="CustomerServiceImplTest.orderProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="PATTERN" value="store.data.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerRepoImplTest.updateCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
-      <option name="METHOD_NAME" value="updateCustomer" />
+      <option name="PACKAGE_NAME" value="store.data.services" />
+      <option name="MAIN_CLASS_NAME" value="store.data.services.CustomerServiceImplTest" />
+      <option name="METHOD_NAME" value="orderProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductRepoImplementationTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="store.data.services.*" />
+          <option name="PATTERN" value="store.data.repositories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="store.data.services" />
-      <option name="MAIN_CLASS_NAME" value="store.data.services.CustomerServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerServiceImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.services" />
-      <option name="MAIN_CLASS_NAME" value="store.data.services.CustomerServiceImplTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
+      <option name="METHOD_NAME" value="find" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,13 +122,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductServiceImplTest.addProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.services" />
+      <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="addProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceImplTest.getProductByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.services" />
+      <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
+      <option name="METHOD_NAME" value="getProductByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerServiceImplTest.login" />
-        <item itemvalue="JUnit.CustomerRepoImplTest" />
-        <item itemvalue="JUnit.CustomerRepoImplTest.updateCustomer" />
+        <item itemvalue="JUnit.CustomerServiceImplTest.orderProduct" />
+        <item itemvalue="JUnit.ProductServiceImplTest.getProductByName" />
+        <item itemvalue="JUnit.ProductServiceImplTest.addProduct" />
+        <item itemvalue="JUnit.ProductRepoImplementationTest.find" />
         <item itemvalue="JUnit.ProductServiceImplTest" />
-        <item itemvalue="JUnit.CustomerServiceImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +172,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
-      <workItem from="1669015799349" duration="1310000" />
+      <workItem from="1669015799349" duration="2828000" />
+      <workItem from="1669119607143" duration="4375000" />
+      <workItem from="1669152663894" duration="3135000" />
     </task>
     <task id="LOCAL-00002" summary="initial commit">
       <created>1668809831997</created>
@@ -190,5 +199,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/store/data/services/CustomerServiceImplTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

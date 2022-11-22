@@ -13,11 +13,11 @@ public class ProductServiceImpl implements ProductService {
     private final ProductRepository productRepository = new ProductRepoImplementation();
 
     @Override
-    public AddProductResponse orderProduct(AddProductRequest request) {
+    public AddProductResponse addProduct(AddProductRequest request) {
         Product product = new Product();
-        product.setPrice(BigDecimal.valueOf(request.getPrice()));
+        product.setPrice(request.getPrice());
         product.setQuantity(request.getQuantity());
-        product.setCategory(Category.valueOf(request.getCategory()));
+        product.setCategory(request.getCategory());
         product.setName(request.getName());
         Product productSaved = productRepository.save(product);
 
@@ -31,5 +31,9 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public Product getProductByName(String name) {
        return productRepository.find(name);
+    }
+    @Override
+    public Product updateProductInDb(Product product) {
+        return null;
     }
 }
