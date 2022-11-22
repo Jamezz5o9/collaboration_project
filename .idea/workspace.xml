@@ -4,6 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/data/repositories/CustomerRepoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/exceptions/CustomerNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/store/data/repositories/CustomerRepoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +24,6 @@
       <list>
         <option value="Enum" />
         <option value="package-info" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
@@ -41,12 +49,20 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="store.data.dto" />
       <recent name="store.data.models" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -57,6 +73,71 @@
       <recent name="store.data.models" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.CustomerServiceImplTest">
+    <configuration name="CustomerRepoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepoImplTest.deleteByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="deleteByEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepoImplTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="deleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerRepoImplTest.getNumberOfCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="collaboration_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.data.repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="store.data.repositories" />
+      <option name="MAIN_CLASS_NAME" value="store.data.repositories.CustomerRepoImplTest" />
+      <option name="METHOD_NAME" value="getNumberOfCustomers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -66,79 +147,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="store.data.services" />
       <option name="MAIN_CLASS_NAME" value="store.data.services.CustomerServiceImplTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.repositories" />
-      <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.services" />
-      <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.services" />
-      <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-      <module name="collaboration_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="store.data.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="store.data.services" />
-      <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerServiceImplTest" />
+        <item itemvalue="JUnit.CustomerRepoImplTest.deleteById" />
+        <item itemvalue="JUnit.CustomerRepoImplTest.deleteByEmail" />
+        <item itemvalue="JUnit.CustomerRepoImplTest" />
+        <item itemvalue="JUnit.CustomerRepoImplTest.getNumberOfCustomers" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="ec96e989-f095-4536-a62b-d368f3a54bd9" name="Changes" comment="" />
       <created>1668069607990</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1668809831997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668809831997</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -157,15 +195,12 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/store/data/services/CustomerServiceImplTest.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
