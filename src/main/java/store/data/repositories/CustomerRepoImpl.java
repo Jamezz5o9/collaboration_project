@@ -22,7 +22,6 @@ public class CustomerRepoImpl implements CustomerRepo{
         for (int i = 0; i < customers.size(); i++) {
             Customer getCustomer = customers.get(i);
             if(getCustomer.getId() == customer.getId()){
-                customers.remove(getCustomer);
                 customers.add(i, customer);
                 return customer;
             }

@@ -4,8 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import store.data.dto.AddProductRequest;
 import store.data.dto.AddProductResponse;
+import store.data.models.Category;
 import store.data.models.Product;
-import store.data.repositories.ProductRepository;
 
 import java.math.BigDecimal;
 
@@ -22,13 +22,13 @@ class ProductServiceImplTest {
        productRequest = new AddProductRequest();
        productRequest.setName("Orange");
        productRequest.setQuantity(4);
-       productRequest.setCategory("FRUITS");
-       productRequest.setPrice(200.00);
+       productRequest.setCategory(Category.FRUITS);
+       productRequest.setPrice(BigDecimal.valueOf(200.00));
     }
 
     @Test
-    void orderProduct() {
-        AddProductResponse response = productService.orderProduct(productRequest);
+    void addProduct() {
+        AddProductResponse response = productService.addProduct(productRequest);
         assertNotNull(response);
         assertEquals("Orange", response.getProductName());
         assertNotNull(response.getMessage());
@@ -36,7 +36,7 @@ class ProductServiceImplTest {
 
     @Test
     void getProductByName() {
-        AddProductResponse response = productService.orderProduct(productRequest);
+        AddProductResponse response = productService.addProduct(productRequest);
         Product product = productService.getProductByName(response.getProductName());
         assertNotNull(product);
     }

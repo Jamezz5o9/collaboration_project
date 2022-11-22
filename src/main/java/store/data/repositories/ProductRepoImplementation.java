@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class ProductRepoImplementation implements ProductRepository{
-    private final List<Product> product = new ArrayList<>();
+    private static List<Product> product = new ArrayList<>();
 
     @Override
     public Product save(Product savedProduct) {

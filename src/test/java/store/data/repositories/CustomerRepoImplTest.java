@@ -45,9 +45,7 @@ class CustomerRepoImplTest {
         customerTwo.setPhoneNumber("8908765");
         customerTwo.setEmail("james@gmail.com");
 
-        product.setName("Milk");
-        product.setCategory(Category.CAR);
-        product.setQuantity(3);
+
 
 
 

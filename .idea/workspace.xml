@@ -4,8 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
         <option value="package-info" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -42,11 +41,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="store.data.dto" />
+      <recent name="store.data.models" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -55,8 +57,6 @@
       <recent name="store.data.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductServiceImplTest">
-    <configuration name="CustomerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -66,12 +66,10 @@
       </extension>
       <option name="PACKAGE_NAME" value="store.data.services" />
       <option name="MAIN_CLASS_NAME" value="store.data.services.CustomerServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepoImplementationTest.findByCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +79,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="store.data.repositories" />
       <option name="MAIN_CLASS_NAME" value="store.data.repositories.ProductRepoImplementationTest" />
-      <option name="METHOD_NAME" value="findByCategory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,7 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceImplTest.getProductByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -112,13 +108,11 @@
       </extension>
       <option name="PACKAGE_NAME" value="store.data.services" />
       <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
-      <option name="METHOD_NAME" value="getProductByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductServiceImplTest.orderProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="collaboration_project" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +122,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="store.data.services" />
       <option name="MAIN_CLASS_NAME" value="store.data.services.ProductServiceImplTest" />
-      <option name="METHOD_NAME" value="orderProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,31 +129,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProductServiceImplTest" />
-        <item itemvalue="JUnit.CustomerServiceImplTest" />
-        <item itemvalue="JUnit.ProductServiceImplTest.orderProduct" />
-        <item itemvalue="JUnit.ProductServiceImplTest.getProductByName" />
-        <item itemvalue="JUnit.ProductRepoImplementationTest.findByCategory" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="06bd5ea5-e6d5-45ac-b04a-1deec0e9c7dc" name="Changes" comment="" />
       <created>1668069607990</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668069607990</updated>
-      <workItem from="1668888131776" duration="11524000" />
-      <workItem from="1668941745299" duration="1656000" />
-      <workItem from="1669033531027" duration="1281000" />
-      <workItem from="1669062454921" duration="599000" />
-      <workItem from="1669087694807" duration="605000" />
-      <workItem from="1669126088430" duration="635000" />
-      <workItem from="1669152663538" duration="662000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,5 +156,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/store/data/services/CustomerServiceImplTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
